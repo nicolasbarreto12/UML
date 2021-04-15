@@ -1,0 +1,8 @@
+package Logica;
+
+public class Avion {
+String modelo;
+String Patente;
+int capacidad;
+
+}

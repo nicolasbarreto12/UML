@@ -1,0 +1,11 @@
+package Logica;
+
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+public class Vuelo {
+
+	LocalDate Fecha;
+	LocalTime hora;
+}
