@@ -5,22 +5,28 @@ String modelo;
 String Patente;
 int capacidad;
 
-public Aereopuerto(int id, String nombre) {
-	this.id = id;
-	this.nombre = nombre;
+public Avion(String modelo, String patente, int capacidad) {
+	this.modelo = modelo;
+	Patente = patente;
+	this.capacidad = capacidad;
 }
-public int getId() {
-	return id;
+public String getModelo() {
+	return modelo;
 }
-public void setId(int id) {
-	this.id = id;
+public void setModelo(String modelo) {
+	this.modelo = modelo;
 }
-public String getNombre() {
-	return nombre;
+public String getPatente() {
+	return Patente;
 }
-public void setNombre(String nombre) {
-	this.nombre = nombre;
+public void setPatente(String patente) {
+	Patente = patente;
 }
- 
+public int getCapacidad() {
+	return capacidad;
+}
+public void setCapacidad(int capacidad) {
+	this.capacidad = capacidad;
+}
 
 }
