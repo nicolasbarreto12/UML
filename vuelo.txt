@@ -8,4 +8,19 @@ public class Vuelo {
 
 	LocalDate Fecha;
 	LocalTime hora;
+	
+	private Aeropuerto origen;
+	private Aeropuerto destino;
+	private Avion avion;
+	Pasajero[] pasajeros;
+	
+	public Vuelo(LocalDate fecha, LocalTime hora, Aeropuerto origen, Aeropuerto destino, Avion avion,
+			Pasajero[] pasajeros) {
+		Fecha = fecha;
+		this.hora = hora;
+		this.origen = origen;
+		this.destino = destino;
+		this.avion = avion;
+		this.pasajeros = pasajeros;
+	} 
 }
